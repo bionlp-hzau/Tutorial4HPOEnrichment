@@ -1,0 +1,22 @@
+https://hpo.jax.org/app/download/annotation
+
+
+http://purl.obolibrary.org/obo/hp/hpoa/genes_to_phenotype.txt provides a link between genes and HPO terms. All phenotype terms associated with any disease that is associated with variants in a gene are assigned to that gene in this file. Other files are available on our Jenkins server that filter terms according to provenance of the annotation and frequency of the features in the disease.
+
+
+
+
+
+Data sample:
+#Format: entrez-gene-id<tab>entrez-gene-symbol<tab>HPO-Term-ID<tab>HPO-Term-Name<tab>Frequency-Raw<tab>Frequency-HPO<tab>Additional Info from G-D source<tab>G-D source<tab>disease-ID for link
+8192	CLPP	HP:0000013	Hypoplasia of the uterus	-		-	mim2gene	OMIM:614129
+8192	CLPP	HP:0004322	Short stature	-	HP:0040283	-	mim2gene	OMIM:614129
+8192	CLPP	HP:0000786	Primary amenorrhea	-		-	mim2gene	OMIM:614129
+8192	CLPP	HP:0000007	Autosomal recessive inheritance	-		-	mim2gene	OMIM:614129
+8192	CLPP	HP:0000815	Hypergonadotropic hypogonadism	-		-	mim2gene	OMIM:614129
+8192	CLPP	HP:0001250	Seizure	-	HP:0040283	-	mim2gene	OMIM:614129
+8192	CLPP	HP:0000252	Microcephaly	-	HP:0040283	-	mim2gene	OMIM:614129
+8192	CLPP	HP:0008527	Congenital sensorineural hearing impairment	-		-	mim2gene	OMIM:614129
+2	A2M	HP:0001425	Heterogeneous	-		susceptibility	mim2gene	OMIM:104300
+2	A2M	HP:0000726	Dementia	-		susceptibility	mim2gene	OMIM:104300
+2	A2M	HP:0001300	Parkinsonism	-		susceptibility	mim2gene	OMIM:104300
